@@ -5,8 +5,10 @@
         static void Main(string[] args)
         {
             int[] array = { 1, 2, 3, 4 };
+            int[] array1 = { 1, 2, 3, 1 };
 
             Console.WriteLine(containsRepeatValues(array));
+            Console.WriteLine(containsRepeatValues(array1));
         }
 
         static bool containsRepeatValues(int[] array) 
